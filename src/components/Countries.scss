@@ -1,0 +1,22 @@
+.country {
+  &-list {
+    padding: 0;
+    
+    @media (min-width: 45rem) {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+    &__item {
+      list-style-type: none;
+      padding: .25rem;
+    }
+    &__link:not(:hover) {
+      color: black;
+    }
+    &__flag {
+      max-width: 1rem;
+      margin-left: .5rem;
+      vertical-align: middle;
+    }
+  }
+}

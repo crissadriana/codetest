@@ -1,0 +1,13 @@
+.error {
+  &-container {
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  &-message {
+    border: 1px solid #ccc;
+    color: red;
+    padding: 2rem;
+    margin: 0 auto;
+    display: inline-block;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "countries": {
+    "title": "Find universities in",
+    "fetchError": "Sorry, we couldn't retrieve the list of countries"
+  },
+  "universities": {
+    "title": "List of universities",
+    "fetchError": "Sorry, we couldn't retrieve the list of universities",
+    "noData": "No data for "
+  },
+  "errorBoundary": "Something went wrong. Please try again later."
+}

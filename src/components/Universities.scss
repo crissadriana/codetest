@@ -1,0 +1,18 @@
+.university {
+  &-message {
+    border: 1px solid #ccc;
+    display: inline-block;
+    font-weight: 400;
+    padding: .5rem 1rem;
+    &-wrapper {
+      text-align: center;
+    }
+  }
+  &-list__item {
+    list-style-type: none;
+    padding: .25rem;
+  }
+  &-list__link:not(:hover) {
+    color: black;
+  }
+}
